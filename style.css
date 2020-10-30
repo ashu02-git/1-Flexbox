@@ -7,7 +7,7 @@
 header {
   width: 100%;
   padding: 30px 20px;
-  background-color: hotpink;
+  background-color: #ff00ff;
   display: flex;
   justify-content: flex-end;
 }
@@ -19,7 +19,7 @@ header > :first-child {
 .head-box {
   height: 70px;
   margin: 10px;
-  background-color: pink;
+  background-color: #fbb3ff;
   flex-basis: 140px;
 }
 
@@ -30,13 +30,13 @@ main {
 
 .side {
   width: 300px;
-  background-color: lightgreen;
+  background-color: #d8ffb6;
 }
 
 .big {
   max-width: 700px;
   padding: 20px;
-  background-color: green;
+  background-color: #00b522;
   flex-grow: 1;
   display: flex;
   flex-wrap: wrap;
@@ -46,13 +46,13 @@ main {
   flex-basis: 200px;
   height: 130px;
   margin: 10px;
-  background-color: yellow;
+  background-color: #fff75a;
 }
 
 footer {
   width: 100%;
   padding: 20px;
-  background-color: blue;
+  background-color: #52a1ff;
   display: flex;
   flex-wrap: wrap;
 }
@@ -67,5 +67,5 @@ footer:last-child {
   max-width: 600px;
   height: 40px;
   margin: 10px;
-  background-color: cornflowerblue;
+  background-color: #b6e7ff;
 }
